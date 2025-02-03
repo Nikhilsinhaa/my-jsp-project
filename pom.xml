@@ -11,6 +11,12 @@
   <artifactId>mysql-connector-java</artifactId>
   <version>8.0.23</version>
   </dependency>
+   <dependency>
+        <groupId>javax.servlet</groupId>
+        <artifactId>javax.servlet-api</artifactId>
+        <version>4.0.1</version> <!-- Or use another appropriate version -->
+        <scope>provided</scope> <!-- Important to use provided scope for servlet API -->
+    </dependency>
   </dependencies>
   
   <build>
